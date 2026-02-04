@@ -10,69 +10,69 @@ management_groups:
   - id: platform
     display_name: Platform
     archetypes:
-      - platform_local_custom
+      - platform_custom
     exists: false
     parent_id: alz
 
   - id: landingzones
     display_name: Landing Zones
     archetypes:
-      - landing_zones_local_custom
+      - landing_zones_custom
     exists: false
     parent_id: alz
 
   - id: corp
     display_name: Corp
     archetypes:
-      - corp_local_custom
+      - corp_custom
     exists: false
     parent_id: landingzones
 
   - id: online
     display_name: Online
     archetypes:
-      - online_local_custom
+      - online_custom
     exists: false
     parent_id: landingzones
 
   - id: sandbox
     display_name: Sandbox
     archetypes:
-      - sandbox_local_custom
+      - sandbox_custom
     exists: false
     parent_id: alz
 
   - id: security
     display_name: Security
     archetypes:
-      - security_local_custom
+      - security_custom
     exists: false
     parent_id: platform
 
   - id: management
     display_name: Management
     archetypes:
-      - management_local_custom
+      - management_custom
     exists: false
     parent_id: platform
 
   - id: connectivity
     display_name: Connectivity
     archetypes:
-      - connectivity_local_custom
+      - connectivity_custom
     exists: false
     parent_id: platform
 
   - id: identity
     display_name: Identity
     archetypes:
-      - identity_local_custom
+      - identity_custom
     exists: false
     parent_id: platform
 
   - id: decommissioned
     display_name: Decommissioned
     archetypes:
-      - decommissioned_local_custom
+      - decommissioned_custom
     exists: false
     parent_id: alz
