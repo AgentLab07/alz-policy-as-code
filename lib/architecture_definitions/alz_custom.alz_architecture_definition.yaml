@@ -3,7 +3,7 @@ management_groups:
   - id: alz
     display_name: Azure Landing Zones
     archetypes:
-      - root_local_custom
+      - root_custom
     exists: false
     parent_id: null
 
