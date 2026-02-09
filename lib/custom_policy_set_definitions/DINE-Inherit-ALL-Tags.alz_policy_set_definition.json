@@ -14,7 +14,6 @@
         "policyDefinitionReferenceId": "Inherit a tag ApplicationName",
         "policyDefinitionId": "/providers/microsoft.authorization/policydefinitions/40df99da-1232-49b1-a39a-6da8d878f469",
         "definitionVersion": "1.0.*",
-        "effectiveDefinitionVersion": "1.0.0",
         "parameters": {
           "tagName": {
             "value": "ApplicationName"
@@ -25,8 +24,7 @@
       {
         "policyDefinitionReferenceId": "Inherit a tag ProductId",
         "policyDefinitionId": "/providers/microsoft.authorization/policydefinitions/40df99da-1232-49b1-a39a-6da8d878f469",
-        "definitionVersion": "1.0.*",
-        "effectiveDefinitionVersion": "1.0.0",
+        "definitionVersion": "1.0.*",        
         "parameters": {
           "tagName": {
             "value": "ProductId"
@@ -37,8 +35,7 @@
       {
         "policyDefinitionReferenceId": "Inherit a tag ProvisionMethod",
         "policyDefinitionId": "/providers/microsoft.authorization/policydefinitions/40df99da-1232-49b1-a39a-6da8d878f469",
-        "definitionVersion": "1.0.*",
-        "effectiveDefinitionVersion": "1.0.0",
+        "definitionVersion": "1.0.*",        
         "parameters": {
           "tagName": {
             "value": "ProvisionMethod"
@@ -49,8 +46,7 @@
       {
         "policyDefinitionReferenceId": "Inherit a tag EnvironmentType",
         "policyDefinitionId": "/providers/microsoft.authorization/policydefinitions/40df99da-1232-49b1-a39a-6da8d878f469",
-        "definitionVersion": "1.0.*",
-        "effectiveDefinitionVersion": "1.0.0",
+        "definitionVersion": "1.0.*",        
         "parameters": {
           "tagName": {
             "value": "EnvironmentType"
@@ -61,8 +57,7 @@
       {
         "policyDefinitionReferenceId": "Inherit a tag Owner",
         "policyDefinitionId": "/providers/microsoft.authorization/policydefinitions/40df99da-1232-49b1-a39a-6da8d878f469",
-        "definitionVersion": "1.0.*",
-        "effectiveDefinitionVersion": "1.0.0",
+        "definitionVersion": "1.0.*",        
         "parameters": {
           "tagName": {
             "value": "Owner"
@@ -73,8 +68,7 @@
       {
         "policyDefinitionReferenceId": "Inherit a tag CostCenter",
         "policyDefinitionId": "/providers/microsoft.authorization/policydefinitions/40df99da-1232-49b1-a39a-6da8d878f469",
-        "definitionVersion": "1.0.*",
-        "effectiveDefinitionVersion": "1.0.0",
+        "definitionVersion": "1.0.*",        
         "parameters": {
           "tagName": {
             "value": "CostCenter"
@@ -85,8 +79,7 @@
       {
         "policyDefinitionReferenceId": "Inherit a tag BusinessUnit",
         "policyDefinitionId": "/providers/microsoft.authorization/policydefinitions/40df99da-1232-49b1-a39a-6da8d878f469",
-        "definitionVersion": "1.0.*",
-        "effectiveDefinitionVersion": "1.0.0",
+        "definitionVersion": "1.0.*",        
         "parameters": {
           "tagName": {
             "value": "BusinessUnit"
