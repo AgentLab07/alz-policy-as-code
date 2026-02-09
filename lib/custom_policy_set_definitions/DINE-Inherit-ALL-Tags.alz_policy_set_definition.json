@@ -1,9 +1,9 @@
 {
-  "name": "DINE-Inherit-UDI-Tags",
+  "name": "DINE-Inherit-ALL-Tags",
   "properties": {
-    "displayName": "Inherit UDI tags from the subscription if missing",
+    "displayName": "Inherit ALL tags from the subscription if missing",
     "policyType": "Custom",
-    "description": "Inherit UDI tags from the subscription if missing",
+    "description": "Inherit ALL tags from the subscription if missing",
     "metadata": {
       "category": "Tags"
     },

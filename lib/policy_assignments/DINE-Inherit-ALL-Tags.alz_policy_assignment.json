@@ -1,0 +1,20 @@
+{
+  "type": "Microsoft.Authorization/policyAssignments",
+  "apiVersion": "2022-06-01",
+  "name": "DINE-Inherit-ALL-Tags",
+  "location": "${default_location}",
+  "dependsOn": [],
+  "properties": {
+    "description": "Inherit ALL tags from the subscription if missing.",
+    "displayName": "Inherit ALL tags from the subscription if missing",
+    "policyDefinitionId": "/providers/Microsoft.Management/managementGroups/placeholder/providers/Microsoft.Authorization/policySetDefinitions/DINE-Inherit-ALL-Tags",
+    "enforcementMode": "Default",
+    "nonComplianceMessages": [
+      {
+        "message": "Missing ALL mandatory tags."
+      }
+    ]
+    },
+    "scope": "/providers/Microsoft.Management/managementGroups/placeholder",
+    "notScopes": []
+  }
