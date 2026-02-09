@@ -1,0 +1,104 @@
+{
+  "name": "DINE-Inherit-UDI-Tags",
+  "properties": {
+    "displayName": "Inherit UDI tags from the subscription if missing",
+    "policyType": "Custom",
+    "description": "Inherit UDI tags from the subscription if missing",
+    "metadata": {
+      "category": "Tags"
+    },
+    "version": "1.0.0",
+    "parameters": {},
+    "policyDefinitions": [
+      {
+        "policyDefinitionReferenceId": "Inherit a tag ApplicationName",
+        "policyDefinitionId": "/providers/microsoft.authorization/policydefinitions/40df99da-1232-49b1-a39a-6da8d878f469",
+        "definitionVersion": "1.0.*",
+        "effectiveDefinitionVersion": "1.0.0",
+        "parameters": {
+          "tagName": {
+            "value": "ApplicationName"
+          }
+        },
+        "groupNames": []
+      },
+      {
+        "policyDefinitionReferenceId": "Inherit a tag ProductId",
+        "policyDefinitionId": "/providers/microsoft.authorization/policydefinitions/40df99da-1232-49b1-a39a-6da8d878f469",
+        "definitionVersion": "1.0.*",
+        "effectiveDefinitionVersion": "1.0.0",
+        "parameters": {
+          "tagName": {
+            "value": "ProductId"
+          }
+        },
+        "groupNames": []
+      },
+      {
+        "policyDefinitionReferenceId": "Inherit a tag ProvisionMethod",
+        "policyDefinitionId": "/providers/microsoft.authorization/policydefinitions/40df99da-1232-49b1-a39a-6da8d878f469",
+        "definitionVersion": "1.0.*",
+        "effectiveDefinitionVersion": "1.0.0",
+        "parameters": {
+          "tagName": {
+            "value": "ProvisionMethod"
+          }
+        },
+        "groupNames": []
+      },
+      {
+        "policyDefinitionReferenceId": "Inherit a tag EnvironmentType",
+        "policyDefinitionId": "/providers/microsoft.authorization/policydefinitions/40df99da-1232-49b1-a39a-6da8d878f469",
+        "definitionVersion": "1.0.*",
+        "effectiveDefinitionVersion": "1.0.0",
+        "parameters": {
+          "tagName": {
+            "value": "EnvironmentType"
+          }
+        },
+        "groupNames": []
+      },
+      {
+        "policyDefinitionReferenceId": "Inherit a tag Owner",
+        "policyDefinitionId": "/providers/microsoft.authorization/policydefinitions/40df99da-1232-49b1-a39a-6da8d878f469",
+        "definitionVersion": "1.0.*",
+        "effectiveDefinitionVersion": "1.0.0",
+        "parameters": {
+          "tagName": {
+            "value": "Owner"
+          }
+        },
+        "groupNames": []
+      },
+      {
+        "policyDefinitionReferenceId": "Inherit a tag CostCenter",
+        "policyDefinitionId": "/providers/microsoft.authorization/policydefinitions/40df99da-1232-49b1-a39a-6da8d878f469",
+        "definitionVersion": "1.0.*",
+        "effectiveDefinitionVersion": "1.0.0",
+        "parameters": {
+          "tagName": {
+            "value": "CostCenter"
+          }
+        },
+        "groupNames": []
+      },
+      {
+        "policyDefinitionReferenceId": "Inherit a tag BusinessUnit",
+        "policyDefinitionId": "/providers/microsoft.authorization/policydefinitions/40df99da-1232-49b1-a39a-6da8d878f469",
+        "definitionVersion": "1.0.*",
+        "effectiveDefinitionVersion": "1.0.0",
+        "parameters": {
+          "tagName": {
+            "value": "BusinessUnit"
+          }
+        },
+        "groupNames": []
+      }
+    ],
+    "policyDefinitionGroups": [],
+    "versions": [
+      "1.0.0"
+    ]
+  },
+  "type": "Microsoft.Authorization/policySetDefinitions"
+}
