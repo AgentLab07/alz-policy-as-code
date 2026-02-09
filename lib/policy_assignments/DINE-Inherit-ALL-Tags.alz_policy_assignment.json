@@ -4,6 +4,9 @@
   "name": "DINE-Inherit-ALL-Tags",
   "location": "${default_location}",
   "dependsOn": [],
+  "identity": {
+    "type": "SystemAssigned"
+  },
   "properties": {
     "description": "Inherit ALL tags from the subscription if missing.",
     "displayName": "Inherit ALL tags from the subscription if missing",
