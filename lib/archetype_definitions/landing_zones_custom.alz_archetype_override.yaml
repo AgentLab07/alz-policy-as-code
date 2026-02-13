@@ -4,6 +4,9 @@ policy_assignments_to_add: []
 policy_assignments_to_remove: [
 # To remove AMA policies, uncomment the following lines:
   Deploy-MDFC-DefSQL-AMA,
+  Enforce-TLS-SSL-Q225,
+  Enable-DDoS-VNET,
+  Deny-Subnet-Without-Nsg
   # Deploy-VM-ChangeTrack,
   # Deploy-VM-Monitoring,
   # Deploy-vmArc-ChangeTrack,
