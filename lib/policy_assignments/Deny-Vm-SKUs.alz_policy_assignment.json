@@ -4,9 +4,6 @@
   "name": "Deny-Vm-SKUs",
   "location": "${default_location}",
   "dependsOn": [],
-  "identity": {
-    "type": "SystemAssigned"
-  },
   "properties": {
     "description": "This policy enables you to specify a set of virtual machine size SKUs that your organization can deploy.",
     "displayName": "Allowed virtual machine size SKUs",
