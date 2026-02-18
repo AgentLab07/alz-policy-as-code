@@ -1,0 +1,23 @@
+{
+  "type": "Microsoft.Authorization/policyAssignments",
+  "apiVersion": "2022-06-01",
+  "name": "DINE-VNet-FlowLogs-TrafficAnalytics",
+  "location": "${default_location}",
+  "dependsOn": [],
+  "identity": {
+    "type": "SystemAssigned"
+  },
+  "properties": {
+    "description": "If a virtual network already has traffic analytics enabled, then, this policy will overwrite its existing settings with the ones provided during policy creation. Traffic analytics is a cloud-based solution that provides visibility into user and application activity in cloud networks.",
+    "displayName": "Configure virtual networks to enforce workspace, storage account and retention interval for Flow logs and Traffic Analytics",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/052c180e-287d-44c3-86ef-01aeae2d9774",
+    "enforcementMode": "Default",
+    "nonComplianceMessages": []
+  },
+  "scope": "/providers/Microsoft.Management/managementGroups/placeholder",
+  "notScopes": [
+    "/providers/microsoft.management/managementgroups/corp",
+    "/providers/microsoft.management/managementgroups/decommissioned",
+    "/providers/microsoft.management/managementgroups/sandbox"
+  ]
+}
