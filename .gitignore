@@ -50,4 +50,4 @@ issues.json
 issues.csv
 
 # Ignore .DS_Store
-*.DS_Store
+.DS_Store
