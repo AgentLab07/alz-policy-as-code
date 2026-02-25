@@ -51,3 +51,6 @@ issues.csv
 
 # Ignore .DS_Store
 .DS_Store
+
+# Ignore .vscode
+.vscode/
